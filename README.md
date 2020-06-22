@@ -34,14 +34,13 @@ I tried six different models:
 
 ## Model performance
 The Random Forest model have more good fit on the train and validation sets.
+* **Random Forest:** Accuracy on train sets = 81%, Accuracy on validation sets = 80%
+![alt text](https://github.com/ILing82816/ds_disease_proj/blob/master/random.png "random")  
 * **Logistic Regression:** Accuracy on train and validation sets = 78%
 * **KNN:** Accuracy on train sets = 75%, Accuracy on validation sets = 72%
 * **Naive Bayes:** Accuracy on train sets = 82%, Accuracy on validation sets = 78%
-![alt text](https://github.com/ILing82816/ds_oil_price_proj/blob/master/Figure/prediction_prophet.png "prophet")   
-* **Linear Regression:** MAE = 0.82  
-![alt text](https://github.com/ILing82816/ds_oil_price_proj/blob/master/Figure/prediction_linear.png "linear")  
-* **Long Short-term Memory (LSTM):** MAE = 1.08  
-![alt text](https://github.com/ILing82816/ds_oil_price_proj/blob/master/Figure/prediction_LSTM.png "LSTM")
-
-## Productionization
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the tutorial in the reference section above. The API endpoint takes in a request with the day of prediction and returns a list of estimated WTI Price.
+![alt text](https://github.com/ILing82816/ds_disease_proj/blob/master/Naive%20Bayes.png "Naive")   
+* **XGBoost:** Accuracy on train sets = 82%, Accuracy on validation sets = 80%
+![alt text](https://github.com/ILing82816/ds_disease_proj/blob/master/xgboost.png "XGBoost")  
+* **LightGBM:** Accuracy on train sets = 83%, Accuracy on validation sets = 80%
+![alt text](https://github.com/ILing82816/ds_disease_proj/blob/master/lightgbm.png "LightGBM")  
