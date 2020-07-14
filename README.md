@@ -1,5 +1,5 @@
 # Data Science Cardiovascular Disease Classification: Project Overview (with Shuo Yuan Chang, Yuke Liu)
-* Created a tool that identifies data science cardiovascular disease (Accuracy: 81%) to help doctors notice the disease in the future.
+* Created a disease classifier that identifies data science cardiovascular disease (Accuracy: 81%) to help doctors notice the disease in the future.
 * Used data set of Cardiovascular Disease in Kaggle (https://www.kaggle.com/sulianova/cardiovascular-disease-dataset#cardio_train.csv). 
 * Optimized Logistic Regression, K Nearest-Neighbors, Naive Bayes, XGBoost, LightGBM, and Random Forest Regressors using GridSearchCV to reach the best model.
 * Built a model explanation using SHAP.   
